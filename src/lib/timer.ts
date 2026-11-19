@@ -19,7 +19,7 @@ interface WorkWindow {
 function getWorkWindow(date: Date): WorkWindow | null {
   const day = date.getDay();
   if (day === 0) return null;
-  if (day === 6) return { startHour: 10, endHour: 14 };
+  if (day === 6) return null;
   return { startHour: 10, endHour: 18 };
 }
 
