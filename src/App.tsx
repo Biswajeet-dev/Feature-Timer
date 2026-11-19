@@ -55,7 +55,7 @@ function App() {
         </header>
 
         <div className="mb-4 rounded-xl border border-slate-800 bg-slate-900/40 px-4 py-2.5 text-xs text-slate-500">
-          Work window: {workWindowLabel()}. Timers only burn during work hours — Mon–Fri 10am–6pm, Sat 10am–2pm, Sun off. Each person on a task multiplies the burn rate.
+          Work window: {workWindowLabel()}. Timers only burn during work hours — Mon–Fri 10am–6pm, Sat - Sun off. Each person on a task multiplies the burn rate.
         </div>
 
         <div className="mb-6 flex flex-wrap gap-2">
