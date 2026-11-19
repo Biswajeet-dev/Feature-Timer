@@ -34,7 +34,7 @@ export function isInWorkWindow(now: Date): boolean {
 export function workWindowLabel(now: Date = new Date()): string {
   const day = now.getDay();
   if (day === 0) return 'Sun — off';
-  if (day === 6) return 'Sat 10am–2pm';
+  if (day === 6) return 'Sat — off';
   return 'Mon–Fri 10am–6pm';
 }
 
